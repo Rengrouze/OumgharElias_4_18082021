@@ -22,7 +22,11 @@ a:hover {
    text-decoration: none;
    cursor: pointer;
 }
-
+.pText {
+   font-size: 1.2em;
+   font-weight: bold;
+   color: #000;
+}
 #page-loading-blocs-notifaction {
    position: fixed;
    top: 0;
@@ -443,6 +447,7 @@ nav .caret {
 .mg-md {
    margin-top: 10px;
    margin-bottom: 20px;
+   font-size: 2em;
 }
 
 .mg-lg {
@@ -660,10 +665,6 @@ a {
    color: #575757 !important;
 }
 
-.container {
-   max-width: 1000px;
-}
-
 .hero-bloc-text {
    font-size: 38px;
 }
@@ -743,14 +744,24 @@ h4 {
 .white {
    color: #ffffff !important;
 }
-
+.portfolio-board {
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: space-around;
+   margin-bottom: 20px;
+   width: 100%;
+}
 .portfolio-thumb {
-   margin-bottom: 24px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 .portfolio-row {
-   margin-bottom: 44px;
-   margin-top: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0%;
 }
 
 .avatar {
@@ -758,7 +769,7 @@ h4 {
 }
 
 .black-background {
-   background-color: rgba(165, 147, 99, 0.7);
+   background-color: rgba(0, 0, 0, 0.7);
    padding: 40px 40px 40px 40px;
 }
 
@@ -827,7 +838,7 @@ h4 {
 }
 
 .bg-presentation {
-   background-image: url("img/image-de-presentation.bmp");
+   background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -985,7 +996,9 @@ h4 {
    .bloc-xxl,
    .bloc-xl,
    .bloc-lg {
-      padding: 40px 0;
+      padding: auto;
+      margin: auto;
+      width: 100%;
    }
    .bloc-sm,
    .bloc-md {
