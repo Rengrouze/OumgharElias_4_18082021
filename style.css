@@ -746,20 +746,6 @@ h4 {
 .white {
    color: #ffffff !important;
 }
-.portfolio-board {
-   display: flex;
-   flex-wrap: nowrap;
-   justify-content: space-around;
-   margin-bottom: 20px;
-   width: 100%;
-}
-
-.portfolio-row {
-   display: flex;
-   justify-content: center;
-
-   margin: 0%;
-}
 
 .avatar {
    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
@@ -1040,13 +1026,6 @@ h4 {
    .blocsapp-device-iphone5 img {
       width: 180px;
       height: 320px;
-   }
-   .portfolio-board {
-      flex-direction: column;
-   }
-
-   .portfolio-row {
-      flex-direction: column;
    }
 }
 
