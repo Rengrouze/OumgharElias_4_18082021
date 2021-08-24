@@ -662,7 +662,7 @@ a {
    font-family: "Raleway";
    font-weight: 600;
    font-size: 1.3em;
-   color: #575757 !important;
+   color: black;
 }
 
 .hero-bloc-text {
@@ -686,7 +686,9 @@ a {
 p {
    font-size: 11px;
 }
-
+.textBlack {
+   color: black;
+}
 .tight-width-whitespace {
    max-width: 600px;
    margin: auto auto auto auto;
@@ -751,16 +753,11 @@ h4 {
    margin-bottom: 20px;
    width: 100%;
 }
-.portfolio-thumb {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
 
 .portfolio-row {
    display: flex;
    justify-content: center;
-   align-items: center;
+
    margin: 0%;
 }
 
@@ -1043,6 +1040,13 @@ h4 {
    .blocsapp-device-iphone5 img {
       width: 180px;
       height: 320px;
+   }
+   .portfolio-board {
+      flex-direction: column;
+   }
+
+   .portfolio-row {
+      flex-direction: column;
    }
 }
 
