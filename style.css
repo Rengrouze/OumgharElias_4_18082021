@@ -22,6 +22,9 @@ a:hover {
    text-decoration: none;
    cursor: pointer;
 }
+*:focus {
+   border: aqua solid 5px;
+}
 .pText {
    font-size: 1.2em;
    font-weight: bold;
